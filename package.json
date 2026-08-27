@@ -1,0 +1,24 @@
+{
+  "name": "bercy-celo",
+  "version": "1.0.0",
+  "description": "World's first AC2 + x402 FX + Crypto orchestrator on Celo Mainnet — Agents at Work Hackathon",
+  "type": "module",
+  "scripts": {
+    "start": "tsx celo-index.ts",
+    "dev":   "tsx --watch celo-index.ts"
+  },
+  "dependencies": {
+    "@algorandfoundation/ac2-sdk": "latest",
+    "@hono/node-server":           "^1.11.0",
+    "dotenv":                      "^16.4.5",
+    "hono":                        "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx":         "^4.7.0",
+    "typescript":  "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
