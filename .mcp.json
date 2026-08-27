@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bercy": {
+      "command": "npx",
+      "args": ["tsx", "bercy-mcp.ts"],
+      "description": "Bercy payment MCP — live FX + crypto rates, AC2 approval, x402 payments on Celo + Algorand"
+    }
+  }
+}
