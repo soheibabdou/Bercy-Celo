@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "start": "tsx celo-index.ts",
-    "dev":   "tsx --watch celo-index.ts"
+    "dev":   "tsx --watch celo-index.ts",
+    "mcp":   "tsx bercy-mcp.ts"
   },
   "dependencies": {
     "@algorandfoundation/ac2-sdk": "latest",
     "@hono/node-server":           "^1.11.0",
+    "@modelcontextprotocol/sdk":   "^1.0.0",
     "dotenv":                      "^16.4.5",
     "hono":                        "^4.1.0"
   },
@@ -22,3 +24,5 @@
     "node": ">=18.0.0"
   }
 }
+</thinking>
+
